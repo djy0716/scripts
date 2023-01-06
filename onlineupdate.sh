@@ -114,7 +114,6 @@ repo_set () {
             firmware_id="x86-64-squashfs-efi.img"
             ;;
     esac
-    proxy_url=https://ghproxy.com
     repo_url=https://github.com/DHDAXCW/${repo_id}/releases
     firmware_url=${version_num}-${firmware_id}
 }
